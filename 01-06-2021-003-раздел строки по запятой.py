@@ -1,6 +1,3 @@
-
-
-
 #получаем предложение от пользователя
 sentence = input('Enter any sentence with comma: ')
 
