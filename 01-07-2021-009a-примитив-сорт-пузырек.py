@@ -1,5 +1,5 @@
 # Получаем от пользователя ряд чисел.
-numbers = input('Input some numbers: ')
+numbers = input('Input some numbers> ')
 print()
 # Разбиваем на массив ряд чисел.
 numbersMas = numbers.split()
