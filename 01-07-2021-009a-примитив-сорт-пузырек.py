@@ -21,7 +21,7 @@ for j in range(numbersLen):
         except ValueError:
             print("Incorrect input. Please input only numbers, not words. Try again...")
             exit(1)
-# Переводим значения str массива в значения int и создаем навый массив с числами-normalizedNumbersMas.
+        # Переводим значения str массива в значения int и создаем навый массив с числами-normalizedNumbersMas.
         valueStr = numbersMas[j]
         valueInt = int(valueStr)
         numbersMas[j] = valueInt
