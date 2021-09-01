@@ -20,5 +20,4 @@ with open(lastFile,'rt') as file:
 
 
 
-print('Thanks for using our utility tools.')
-print('(c) 2021 Dmitry Detukov')
+
