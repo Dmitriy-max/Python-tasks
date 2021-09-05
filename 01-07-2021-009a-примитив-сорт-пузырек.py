@@ -12,7 +12,7 @@ if numbersLen == 0:
     print('Input numbers. Please, try again...')
     exit(1) 
 
-# Проводим проверку если пользователь ввел буквенное значение выходим из программы с кодом 1.
+# Проводим проверку если пользователь ввел буквенное значение выходим из программы с кодом 2.
 
 for j in range(numbersLen):
     if  type(numbersMas[j]) != int:
@@ -20,7 +20,7 @@ for j in range(numbersLen):
             numbersMas[j] = int(numbersMas[j])
         except ValueError:
             print("Incorrect input. Please input only numbers, not words. Try again...")
-            exit(1)
+            exit(2)
         # Переводим значения str массива в значения int и создаем навый массив с числами-normalizedNumbersMas.
         valueStr = numbersMas[j]
         valueInt = int(valueStr)
