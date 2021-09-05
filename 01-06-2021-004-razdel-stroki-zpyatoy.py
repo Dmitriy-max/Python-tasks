@@ -12,7 +12,7 @@ if sentenceLen == 0:
 for i in range (sentenceLen):
         if sentence[i].isdigit():
                 print('Please, Enter your name and surname. Try again...')
-                exit(1) 
+                exit(2) 
 
 print(words[0]) # выводим первое слово
 print(words[1]) # выводим второе слово
