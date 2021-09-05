@@ -8,18 +8,18 @@ numberLen = len(number)
 if numberLen == 0:
     print('Input number. Please, try again...')
     exit(1) 
-# Если пользователь ввел буквенное значение выходим из программы с кодом 1.
+# Если пользователь ввел буквенное значение выходим из программы с кодом 2.
 if  type(number) != int:
     try:
         number = int(number)
     except ValueError:
         print("Incorrect input. Please input one number, not word or numbers. Try again...")
-        exit(1)
-# Если пользователь ввел отрицательное число выходим из программы с кодом 1.
+        exit(2)
+# Если пользователь ввел отрицательное число выходим из программы с кодом 3.
 numberInt = int(number)
 if numberInt < 0:
     print('Please, input positive number. Try again...')
-    exit(1)
+    exit(3)
 # Создаем цикл и выводим данные на экран.
 for i in range(0,numberInt+1):
     print (i)
