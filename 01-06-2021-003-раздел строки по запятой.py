@@ -15,11 +15,11 @@ if sentenceLen == 0:
 
 commaPosition = sentence.find(',')
 
-# если пользователь ввел предложение без запятой, выходим из программы с кодом 1
+# если пользователь ввел предложение без запятой, выходим из программы с кодом 2
 if commaPosition == -1:
     print()
     print('Comma is not found. Incorrect input sentence. Please try again...')
-    exit(1)
+    exit(2)
 
 # для человекочитаемости к индексу запятой добавляем 1
 humanFriendlyPos = commaPosition + 1
