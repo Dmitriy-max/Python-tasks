@@ -11,7 +11,7 @@ if num1 == "" or num2 == "" or num3 == "":
 # Если пользователь ввел буквенное значение выходим из программы с кодом 1.
 if  num1.isalpha() or num2.isalpha() or num3.isalpha():
         print("Incorrect input. Please input numbers, not words. Try again...")
-        exit(1)
+        exit(2)
 # Полученные от пользователя данные из строки переводим в числовое значение.
 number1 = int(num1)
 number2 = int(num2)
