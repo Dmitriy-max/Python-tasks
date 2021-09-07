@@ -40,8 +40,8 @@ for i in range(numbersLen):
                         normalizedNumbersMas[n] = localnumber
 print('Your numbers in descending orders:')
 # Выводим элементы массива на экран.
-for i in range(numbersLen): 
-        print(normalizedNumbersMas[i])
+for z in range(numbersLen): 
+        print(normalizedNumbersMas[z])
 print()
 print('Thanks for using our application')
 print('(c) 2021 Dmitry Detukov')
