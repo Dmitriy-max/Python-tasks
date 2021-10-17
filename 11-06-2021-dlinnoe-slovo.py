@@ -1,0 +1,6 @@
+string = input('Input sentence> ')
+stringSplit = string.split()
+longest = max(stringSplit, key = len)
+longestLen = len(longest)
+print("Длинное слово:%s"%longest)
+print("Букв в слове:%s"%longestLen)
